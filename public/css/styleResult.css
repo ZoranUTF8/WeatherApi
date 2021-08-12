@@ -1,0 +1,26 @@
+body {
+  background: url('https://pixabay.com/get/g625cf329e1f192f4daad2944217b956dfcc4387743de88e1fbd111a8ea9982a7e2d7c7bb1e3b1e989f4b65dd2e6187cc989698066a323eed0165305a8b224768_1920.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+.mainDiv {
+  position: relative;
+  top: 140px;
+  color: #2978b5;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.h1 {
+  padding: 30px;
+  line-height: 20px;
+}
+
+.footer {
+  margin-top: 400px;
+  color: #f3f4ed;
+}

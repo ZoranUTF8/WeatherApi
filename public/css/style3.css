@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+  opacity: 0.9;
+  background: url('https://pixabay.com/get/g625cf329e1f192f4daad2944217b956dfcc4387743de88e1fbd111a8ea9982a7e2d7c7bb1e3b1e989f4b65dd2e6187cc989698066a323eed0165305a8b224768_1920.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #0061a8;
+}
+
+h1 {
+  text-align: center;
+  line-height: 4rem;
+}
+hr {
+  border: 1px solid #0061a8;
+}
+
+.btn {
+  background-color: #0061a8;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

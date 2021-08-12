@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Boorstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet"  href="css/style.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="mainDiv container-fluid">
+
+
+  <div class="h1Div">
+    <h1> Weather forecast</h1>
+  </div>
+
+  <div class="formDiv container">
+
+    <div class="innerFormDiv">
+
+
+      <form action="/" class="was-validated" method="POST">
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="city">City name:</label>
+            <input name="cityInput" type="text" class="form-control" placeholder="City" id="city" autofocus required>
+          </div>
+          <div class="form-group">
+            <label for="units">Units:</label>
+            <input name="unitsInput" type="text" class="form-control" placeholder="standard - metric - imperial" id="units" aria-describedby="unitsHelp" required>
+            <small id="unitsHelp" class="form-text text-muted">Default is imperial</small>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+
+  </div>
+
+
+  <footer class="footer ">
+  Zoran Janjic 2021
+</footer>
+  </div>
+
+</body>
+
+</html>
