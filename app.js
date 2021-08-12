@@ -79,7 +79,9 @@ app.post("/goBack", function(req, res) {
   res.redirect("/");
 });
 
-app.listen(3000, function() {
+let port = process.env.PORT;
+
+app.listen(port || 3000, function() {
   console.log("Server on");
 });
 
